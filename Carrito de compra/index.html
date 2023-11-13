@@ -1,0 +1,162 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.5/font/bootstrap-icons.css">
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="estilos.css">
+    <link rel="stylesheet" href="css/Estilos_2.css">
+    <title>JadyStore</title>
+</head>
+<body>
+  <header class="header">
+    <a href="../index.html">
+        <div class="logo">
+            <img src="Imágenes/Más Imágenes/maxresdefault (1).jpg" alt="Logo de la marca">
+        </div>
+    </a>
+    <nav class="sticky-top">
+        <ul class="nav-links">
+            <li><a href="../index.html">JadyStore</a></li>
+            <li><a href="#footer">Contáctanos</a></li>
+        </ul>
+    </nav>
+</header>
+    <div class="contenedor">
+        <header class="header-mobile">
+            <h1 class="logo">JadyStore</h1>
+            <button class="open-menu" id="open-menu">
+                <i class="bi bi-list"></i>
+            </button>
+        </header>
+        <aside id="menu-mobile">
+            <button class="close-menu" id="close-menu">
+                <i class="bi bi-x"></i>
+            </button>
+            <header>
+                <div class="logo">
+                    <img src="">
+                    <h1>Jady Store</h1>
+                </div>
+            </header>
+            <nav>
+                <ul class="menu">
+                    <li>
+                        <button id="todos" class="boton-menu boton-categoria active">Todos los Productos</button>
+                    </li>
+                    <li>
+                        <button id="camisas" class="boton-menu boton-categoria">Camisas</button>
+                    </li>
+                    <li>
+                        <button id="pantalones" class="boton-menu boton-categoria">Pantalones</button>
+                    </li>
+                    <li>
+                        <button id="setZapatos" class="boton-menu boton-categoria">Zapatos</button>
+                    </li>
+                    <li>
+                        <button id="accesoriosParaHombre" class="boton-menu boton-categoria">Accesorios para Hombre</button>
+                    </li>
+                    <li>
+                        <button id="accesoriosParaMujer" class="boton-menu boton-categoria">Accesorios para Mujer</button>
+                    </li>
+                    <li>
+                        <a class="boton-menu boton-carrito" href="carrito.html">
+                            <i class="bi bi-cart-fill"></i> carrito <span class="numero" id="numero">0</span>
+                        </a>
+                    </li>
+                </ul>
+            </nav>
+            <div class="pag-principal">
+                <a href="../index.html">Volver a la Página Principal</a>
+            </div>
+        </aside>
+        <main>
+            <h2 class="titulo-principal" id="titulo-principal">Todos los Productos</h2>
+            <div id="contenedor-productos" class="contenedor-productos">
+                <!--Esto se rellena con JS-->
+            </div>
+        </main>
+    </div>
+    <footer class="bg-dark text-white pt-5 pb4 mt-5" id="footer">
+        <div class="container text-center text-md-left">
+            <div class="row text-center text-md-left">
+                <div class="row text-center text-md-left">
+                    <div class="col-md-3 col-lg-3 col-xl-3 mx-auto mt-3">
+                        <h5 class="text-uppercase mb-4 font-weight-bold">Jady Store</h5>
+                        <i class="bi bi-globe text-white"></i>
+                        <p>Ofrecer prendas de vestir y accesorios de alta calidad y estilo a precios asequibles para satisfacer las necesidades y deseos de nuestros clientes. Nos esforzamos por entregar a nuestros clientes calidad y la durabilidad de nuestros productos.</p>
+                    </div>
+                    <div class="col-md-2 col-lg-2 col-xl-2 mx-auto mt-3">
+                        <h5 class="text-uppercase mb-4 font-weight-bold">Productos</h5>
+                        <p>
+                            <a href="Zapatos.html" class="text-white">Zapatos</a>
+                        </p>
+                        <p>
+                            <a href="Pantalones.html" class="text-white">Pantalones</a>
+                        </p>
+                        <p>
+                            <a href="Camisa.html" class="text-white">Camisas</a>
+                        </p>
+                        <p>
+                            <a href="Accesorios_hombre.html" class="text-white">Accesorios para hombre</a>
+                        </p>
+                        <p>
+                            <a href="Accesorios_mujer.html" class="text-white">Accesorios para mujer</a>
+                        </p>
+                    </div>
+                    <div class="col-md-3 col-lg-2 col-xl-2 mx-auto mt-3">
+                        <h5 class="text-uppercase mb-4 font-weight-bold">contáctanos</h5>
+                        <p>
+                            <i class="bi bi-geo-alt"></i>San Cristóbal, Táchira, Venezuela
+                        </p>
+                        <p>
+                            <i class="bi bi-envelope"></i>Correo: Jadystore4@gmail.com
+                        </p>
+                        <p>
+                            <i class="bi bi-phone"></i>+58 424-2000903
+                        </p>
+                        <p>
+                            <i class="bi bi-telephone"></i>+58 424-7268380
+                        </p>
+                    </div>
+                </div>
+                <hr class="mb-4">
+                <div class="row align-item-center">
+                    <div class="col-md-7 col-lg-8">
+                        <p>&#169 Derechos Reservados por
+                          <strong>Jady Store</strong>
+                        </p>
+                    </div>
+                    <div class="col-md-5 col-lg-4">
+                      <div class="text-center text-md-right">
+                        <ul class="list-unstyled list-inline">
+                          <li class="list-inline-item">
+                            <a href="#" class="btn-floating btn-sm text-white" style="font-size: 23px;"><i class="bi bi-facebook"></i></a>
+                          </li>
+                          <li class="list-inline-item">
+                            <a href="#" class="btn-floating btn-sm text-white" style="font-size: 23px;"><i class="bi bi-instagram"></i></a>
+                          </li>
+                          <li class="list-inline-item">
+                            <a href="#" class="btn-floating btn-sm text-white" style="font-size: 23px;"><i class="bi bi-tiktok"></i></a>
+                          </li>
+                          <li class="list-inline-item">
+                            <a href="#" class="btn-floating btn-sm text-white" style="font-size: 23px;"><i class="bi bi-youtube"></i></a>
+                          </li>
+                        </ul>
+    
+                      </div>
+    
+                    </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    
+    </footer>
+    <script src="proyect.js"></script>
+    <script src="menu.js"></script>
+    <script src="../js/bootstrap.bundle.js"></script>
+</body>
+</html>

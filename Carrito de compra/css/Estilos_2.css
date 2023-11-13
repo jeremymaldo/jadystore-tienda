@@ -1,0 +1,42 @@
+.tarjetas img {
+    width: 348px ;
+    height: 200px;
+}
+.card {
+    width: 350px;
+    height: 300px;
+    margin-left: 30px;
+}
+a {
+    text-decoration: none;
+}
+footer h5, strong{
+    color: rgb(0,161,149);
+}
+footer strong:hover{
+    transition: 1s;
+    color: white;
+}
+i{
+    margin-right: 3px;
+}
+footer p a{
+    text-decoration: none;
+}
+.btn-outline-light:hover{
+    transition: 1s;
+    transform: scale(1.15);
+}
+.navbar-toggler:hover{
+    color: white;
+    transition: .5s;
+}
+li i:hover{
+    transition: .5s;
+    color: rgb(0,161,149);
+}
+.dropdown-item:hover, .nav-link:hover{
+    transition: .5s;
+    transform: scaleY(1.20);
+    font-size: 20px;
+}
